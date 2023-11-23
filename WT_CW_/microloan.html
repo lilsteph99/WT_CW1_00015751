@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Credits</title>
+  <link rel="stylesheet" href="style.css"> 
+  <script src="calc.js"></script>
+</head>
+<body>
+    <header>
+      <img id="img1" src="https://bank.uz/upload/resize_cache/iblock/77c/300_209_1/77c45647ef172e1d350fa351030e56a9.png">
+       <nav>
+           <ul id="loan-info">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="microloan.html">Microloan</a></li>
+               <li><a href="deposits.html">Deposit</a></li>
+               <li><a href="cards.html">Cards</a></li>
+               <li><a href="transfers.html">Transfers</a></li>
+               <li><a href="contact.html">Contacts</a></li>
+           </ul>
+       </nav>
+  </header>
+
+  <main>
+    <div id="loan-info" class="card">
+      <img src="https://www.sqb.uz/upload/new-img/microloan-main.png" alt="">                
+      <h2>Microloan for any purpose</h2>
+      <ul>
+        <li>Purpose of the loan: for any purpose</li>
+        <li>Amount of credit: from 2 to 50 million soums</li>
+        <li>Credit term: from 12 to 48 months </li>
+        <li>Repayment frequency: every month</li>
+        <li>Repayment method: annuity - equal amounts after the same period of time</li>
+        <li>Securing a loan when applying for a loan in JOYDA: loan non-repayment risk insurance policy</li>
+        <li>Securing a loan when applying in the office:  guarantee of an individual</li>
+      </ul> 
+    </div>
+    </table>
+    <div id="loan-requirements" class="card">
+      <img src="https://www.sqb.uz/upload/new-img/microloan-main.png" alt="">                
+      <h2>Recipient requirements</h2>
+      <ul>
+        <li>Citizenship of the Republic of Uzbekistan;</li>
+        <li>Age from 18 to 65 years;</li>
+        <li>Official income for the last 6 months, old-age pension, 10% of the main account of the individual entrepreneur (minimum 6 months);</li>
+        <li>The debt burden on all issued loans and guarantee obligations should not exceed 50% of the average monthly income;</li>
+        <li>Absence of overdue debt on previously received loans and other obligations.</li>
+      </ul> 
+    </div> 
+    <div class="calculator"> 
+      <h1>Loan Calculator</h1> 
+
+      <!-- Calling Calculate function defined in calc.js -->
+      <p>Amount (SUM)     : 
+          <input id="amount" type="number"
+          onchange="Calculate()"> 
+      </p> 
+
+      <p>Interest Rate : 
+          <input id="rate" type="number"
+          onchange="Calculate()"> 
+      </p> 
+
+      <p>Months to Pay : 
+          <input id="months" type="number"
+          onchange="Calculate()"> 
+      </p> 
+
+      <h2 id="total"></h2> 
+      <h3>Interest rate</h3>
+    <table border="1" id="table-microloan">
+      <tr align="center">
+      <th>12 months</th>
+      <th>24 months</th>
+      <th>36 months</th>
+      <th>48 months</th>
+    </tr>
+      <tr>
+      <td>31%</td>
+      <td>32%</td>
+      <td>33%</td>
+      <td>34%</td>
+  </div> 
+
+  <script src="webtech.css/calc.js"></script> 
+  </main>
+
+  
+</body>
+</html>
